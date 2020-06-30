@@ -1,0 +1,1 @@
+print(*[x for x in [i**2  for i in map(int,input().split()) if i % 2] if x % 10 != 9], sep = ' ')
